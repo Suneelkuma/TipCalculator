@@ -15,7 +15,7 @@ function myfunction2(){
 console.log(`peoplevalues ${peoplevalue}`);
 
 function myfunction(){
-    const bill=document.getElementById("mybill")
+    let bill=document.getElementById("mybill")
     console.log(bill.value);
     // billamount=bill.value
     const button=document.querySelectorAll(".button");
@@ -39,8 +39,16 @@ for(let i=0;i<6;i++){
         
     })
 }
+
+const reset=document.querySelector(".reset")
+reset.addEventListener('click',()=>{
+   
+    show.textContent="$0.00"
+    total.textContent="$0.00"
+})
 console.log(buttonvalue);
 
 }
 // console.log(billamount);
 console.log(show);
+
