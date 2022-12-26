@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section class="section1">
+            <h4 class="heading margin" >Bill</h4>
+            <input type="text" class="bill margin" id="mybill" placeholder="0" onchange="myfunction()">
+            <h4 class="secondheading margin">Select Tip %</h4>
+            <div class="buttoncontainer">
+                <button class="button" >5%</button>
+                <button class="button">10%</button>
+                <button class="button">15%</button>
+                <!-- <button class="button">15%</button> -->
+                <button class="button">20%</button>
+                <button class="button">25%</button>
+                <button class="button">Custom</button>
+            </div>
+            <h4 class="thirdheading margin">Number of People</h4>
+            <input type="text" id="peoples" class="people margin" placeholder="0" onchange="myfunction2()">
+
+        </section>
+        <section class="section2">
+            <div class="amount">
+                <h3>Tip Amount</h3>
+                <h2 >$0.00</h2>
+                
+            </div>
+            <div class="total">
+                <h3>Total</h3>
+                <h1>$0.00</h1>
+                
+            </div>
+            <button class="reset">RESET</button>
+        </section>
+    </div>
+</body>
+</html>
