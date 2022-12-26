@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(186, 224, 240);
+}
+
+
+.container{
+    height: 500px;
+    width: 900px;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.section1{
+width: 47%;
+height: 90%;
+/* background-color: aqua; */
+margin: 20px;
+
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.buttoncontainer button{
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(15, 111, 132);
+    color: white;
+   border: 0px;
+    border-radius: 10px;
+}
+.buttoncontainer :last-child{
+    background-color: white;
+    border-radius: 10px;
+    color: gray;
+}
+.margin{
+    margin-left:50px ;
+    color:  rgb(78, 95, 99);
+}
+.bill{
+    background-color: rgb(207, 232, 243);
+    border: 0px;
+    height: 26px;
+    width: 70%;
+}
+.people{
+    
+    background-color: rgb(207, 232, 243);
+    border: 0px;
+    height: 26px;
+    width: 70%;
+}
+.section2{
+    width: 47%;
+    height: 90%;
+    margin: 20px;
+    background-color: rgb(15, 111, 132);
+    border-radius: 10px;
+    }
+    .amount{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px;
+        color: white;
+    }
+    .total{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px;
+        color: white;
+    }
+    .reset{
+        width: 70%;
+        margin-top: 90px;
+        margin-left: 60px;
+        height: 30px;
+        border-radius: 10px;
+        border: 0px;
+        background-color: rgb(86, 128, 243);
+        color:rgb(15, 111, 132) ;
+    }
