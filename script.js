@@ -42,7 +42,7 @@ for(let i=0;i<6;i++){
 
 const reset=document.querySelector(".reset")
 reset.addEventListener('click',()=>{
-   
+    bill.value=""
     show.textContent="$0.00"
     total.textContent="$0.00"
 })
