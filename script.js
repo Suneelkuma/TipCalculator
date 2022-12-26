@@ -26,7 +26,7 @@ console.log(button);
 
 var buttonvalue
 for(let i=0;i<6;i++){
-    // console.log(button);
+   
     button[i].addEventListener('click',(e)=>{
         console.log("you clicked me");
         console.log((i+1)*5);
@@ -36,7 +36,7 @@ for(let i=0;i<6;i++){
      total.textContent=`$ ${parseInt(bill.value)+parseInt(Math.floor(bill.value*((i+1)*5)/100))}`
     console.log(Math.floor(bill.value*((i+1)*5)/100));
 
-        // if(button)
+        
     })
 }
 console.log(buttonvalue);
